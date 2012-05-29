@@ -1,0 +1,61 @@
+body{
+	background-color: lightgreen;
+}
+div.container {
+	min-height:600px;
+
+}
+div.container div.book{
+	min-height:550px;
+	margin:30 auto;
+	padding: 30px 0px 30px 0px;
+	perspective:1500;
+	-webkit-perspective:1500;
+}
+div.container div.cover{
+	height:600px;
+	margin:0 auto;
+	position: absolute;
+	margin:0 auto;
+	left:10px;
+	right:0;
+	top:33px;
+	bottom:0;
+	-webkit-transition-property:all;
+	-webkit-transition-duration:1500ms;
+	-webkit-transition-timing-function:inline;
+	-moz-transition-property:all;
+	-moz-transition-duration:1500ms;
+	-moz-transition-timing-function:inline;
+	-webkit-transform: perspective(1000) rotateY(0deg);
+	-moz-transform: perspective(1200)rotateY(0deg);
+	cursor: pointer;
+
+}
+
+div.book div.pages{
+	background-color: #ab5b35;
+	height:550px;
+	cursor: move;
+	margin:0 auto;
+	color:white;
+	text-align:center;
+	border:3px solid #62311a;
+	border-radius:20px;
+	margin:0 auto;
+}
+div.book div.pages div.lola{
+		margin:0 auto;
+		background:url(images/lola1.png) no-repeat;
+		height:550px;
+		width:137px;
+		margin-left:555px;
+		
+}
+div.pages div.paper{
+	border:3px solid #62311a;
+	border-radius:20px;
+	min-height:500px;
+	margin-top:20px;
+
+}
