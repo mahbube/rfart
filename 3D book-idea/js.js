@@ -6,7 +6,7 @@ $(function(){
 
 	cover.click(function(){
 		cover.css({
-			'-webkit-transform':'rotateY(540deg) translateX(-540px) scale(1.2,1.2) ',
+			'-webkit-transform':'rotateY(540deg) translateX(-540px)',
 
 		});
 
