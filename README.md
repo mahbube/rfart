@@ -1,5 +1,4 @@
 ##RF-ART
-
 -
 
 **Goal Project** : Photography studio website
