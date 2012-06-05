@@ -1,0 +1,26 @@
+body{
+	padding-top: 50px;
+}
+div.container {
+	min-height:600px;
+	outline:2px dashed orange;
+}
+div.container div.lmenu {
+	min-height:600px;
+	outline:2px dashed red;
+	background-color:lightblue;
+}
+div.container div.rmenu {
+	min-height:600px;
+	outline:3px dashed purple;
+	background-color:lightgreen;
+}
+div.rmenu div.top-menu {
+	height:85px;
+	margin-top:100px;
+	border:3px solid purple;
+	background-color:green;
+	opacity: 0.4;
+	-moz-opacity: 0.4;
+	filter:alpha(opacity=4);
+}
