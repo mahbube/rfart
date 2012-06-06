@@ -8,32 +8,71 @@ div.container {
 }
 div.container div.lmenu {
 	min-height:580px;
-	outline:2px dashed red;
 	background-color:lightblue;
 }
 div.container div.rmenu {
 	min-height:580px;
-	outline:3px dashed purple;
 	background-color:lightgreen;
 	padding-top:1px;
 }
-div.container div.rmenu div.top-menu {
-	height:85px;
-	width:750px;
-	outline:3px solid red;
-	background-color:black;
-	opacity: 0.4;
-	-moz-opacity: 0.4;
-	filter:alpha(opacity=4);
-	position: absolute;
-	margin:0 auto;
-	left:200px;
-	right:0;
-	top:20px;
-	bottom:0;
-}
+
+										/* SLIDER */
 div.container div.rmenu div.slider {
-	min-height:580px;
+	min-height:575px;
 	outline:3px solid purple;
-	background:url(images/4_1.jpg);
+	background:url(images/4_1.jpg) top center no-repeat;
+	padding:1px;
+	z-index: -9;
+}
+div.container div.rmenu div.slider div.top_menu {
+	min-height:85px;
+	background-color:black;
+	opacity: 0.7;
+	-moz-opacity: 0.7;
+	filter:alpha(opacity=7);
+}
+div.container div.rmenu div.slider div.top_menu ul.top {
+	list-style-type:none;
+	text-align:center;
+	color:white;
+}
+div.container div.rmenu div.slider div.top_menu li {
+	cursor: pointer;
+	float: left;
+	text-align:center;
+	padding: 30px 40px 20px 40px;
+}
+div.container div.rmenu div.slider div.top_menu li:first-child {
+	margin-left:75px;
+}
+
+div.container div.rmenu div.slider div.thumbs {
+	background:url(images/under.png);
+	margin-top:316px;
+	min-height:160px;
+	color:magenta;
+	z-index:2;
+	opacity: 0.9;
+	-moz-opacity: 0.9;
+	filter:alpha(opacity=9);
+}
+div.container div.rmenu div.slider div.thumbs ul.home_pic {
+	list-style-type:none;
+	text-align:center;
+	min-height:inherit;
+	margin:0 auto;
+}
+div.container div.rmenu div.slider div.thumbs li {
+	cursor: pointer;
+	float: left;
+	padding: 10px 20px 10px 0px;
+	margin-top:30px;
+}
+div.container div.rmenu div.slider div.thumbs li:first-child {
+	margin-left:42px;
+}
+div.container div.rmenu div.slider div.thumbs li img {
+border:1px solid black;
+border-radius:20px;
+box-shadow: 10px 10px 5px black;
 }
