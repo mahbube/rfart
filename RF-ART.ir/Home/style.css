@@ -1,0 +1,42 @@
+body{
+	padding-top: 50px;
+}
+div.container {
+	min-height:600px;
+	outline:2px dashed orange;
+}
+div.container div.lmenu {
+	min-height:600px;
+	outline:2px dashed red;
+	background-color:lightblue;
+}
+div.container div.rmenu {
+	min-height:600px;
+	outline:3px dashed purple;
+	background-color:lightgreen;
+	padding-top:1px;
+}
+div.container div.rmenu div.top-menu {
+	height:85px;
+	width:750px;
+	outline:3px solid red;
+	background-color:black;
+	opacity: 0.4;
+	-moz-opacity: 0.4;
+	filter:alpha(opacity=4);
+	position: absolute;
+	margin:0 auto;
+	left:200px;
+	right:0;
+	top:50px;
+	bottom:0;
+}
+div.container div.rmenu div.slider {
+	min-height:595px;
+	border:3px solid purple;
+	background-color:green;
+	opacity: 0.4;
+	-moz-opacity: 0.4;
+	filter:alpha(opacity=4);
+
+}
