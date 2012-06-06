@@ -1,17 +1,18 @@
 body{
-	padding-top: 50px;
+	padding-top: 10px;
 }
 div.container {
-	min-height:600px;
-	outline:2px dashed orange;
+	min-height:580px;
+	outline:10px solid orange;
+	padding: 7px 0px 7px 0px;
 }
 div.container div.lmenu {
-	min-height:600px;
+	min-height:580px;
 	outline:2px dashed red;
 	background-color:lightblue;
 }
 div.container div.rmenu {
-	min-height:600px;
+	min-height:580px;
 	outline:3px dashed purple;
 	background-color:lightgreen;
 	padding-top:1px;
@@ -28,15 +29,11 @@ div.container div.rmenu div.top-menu {
 	margin:0 auto;
 	left:200px;
 	right:0;
-	top:50px;
+	top:20px;
 	bottom:0;
 }
 div.container div.rmenu div.slider {
-	min-height:595px;
-	border:3px solid purple;
-	background-color:green;
-	opacity: 0.4;
-	-moz-opacity: 0.4;
-	filter:alpha(opacity=4);
-
+	min-height:580px;
+	outline:3px solid purple;
+	background:url(images/4_1.jpg);
 }
