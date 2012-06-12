@@ -47,6 +47,8 @@ div.container div.rmenu div.slider div.top_menu {
 	margin-top:-3px;
 	min-height:85px;
 	background:url(images/top_menu.png) no-repeat;
+	-webkit-transition:all 800ms;
+	-moz-transition:all 800ms;
 	
 }
 div.container div.rmenu div.slider div.top_menu ul.top {
